@@ -1,0 +1,21 @@
+{
+  "name":"alone-webman/cors",
+  "type":"library",
+  "license":"MIT",
+  "version":"1.0.0",
+  "description":"中间件-跨域头",
+  "autoload":{
+    "psr-4":{
+      "AloneWebMan\\Cors\\":"src"
+    },
+    "files":[
+      "function.php"
+    ]
+  },
+  "require":{
+    "php":">=8.0"
+  },
+  "require-dev":{
+    "workerman/webman-framework":"^2.1"
+  }
+}
